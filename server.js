@@ -96,5 +96,5 @@ app.put("/usuarios/:id", (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Servidor rodando em http://localhost:${port}`);
+    console.log(`Servidor rodando em https://backend-listar-users.onrender.com`);
 });
